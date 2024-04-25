@@ -1,0 +1,685 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter' !important;
+  overflow-x: hidden;
+}
+.container{
+  padding: 10px 0;
+}
+.container ul li a{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+margin-left: 20px;
+color: rgba(13, 10, 25, 1);
+
+}
+
+
+.container ul li .signUp{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: rgba(154, 158, 167, 1);
+}
+.container ul li .signUp img{
+  background-color: #f5f6f7;
+  border-radius: 5px;
+  width: 35px;
+  height: 30px;
+  padding: 5px 8px;
+  margin-right: 10px;
+}
+
+  /******************************** Hero Sectin********************************* */
+
+
+
+.hero_section{
+  background-image: url(img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 560px;
+
+}
+.hero_section h1{
+font-size: 64px;
+font-weight: 700;
+line-height: 74px;
+letter-spacing: -0.3047619163990021px;
+text-align: center;
+color: #fff;
+padding-top: 130px;
+}
+.hero_section .p-content{
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+margin-top: 30px;
+
+}
+
+
+/* Select Menu */
+
+
+.select_menu{
+  background-color: #fff;
+  box-shadow: 0px 3px 4px 0px #999BA826;
+  border-radius: 8px;
+  max-width: 945px;
+  height: 70px;
+  height: auto;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -45px;
+  left: 50%;
+  z-index: 99;
+  width: 98%;
+  transform: translateX(-50%);
+}
+
+.select_menu p{
+color: #9A9EA7;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 5px;
+
+}
+
+.select_menu select{
+color: #0D0A19;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  padding-right: 30px;
+  margin-bottom: 25px;
+}
+
+.without_p{
+  margin-top: 25px;
+}
+.option_p{
+color: #9A9EA7 !important;
+}
+.select_btn{
+background: #7963F0;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+color: #fff;
+padding: 8px 20px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.select_btn img{
+  width: 12px;
+  margin-right: 3px;
+  margin-top: -3px;
+}
+
+
+
+
+  /******************************** Company Sectin********************************* */
+
+
+  .com_section{
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+
+
+
+.card_section h3{
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #0D0A19;
+}
+.card_section h5{
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+color: #0D0A19;
+
+}
+.card_section p{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+color: #9A9EA7;
+}
+
+.card{
+  border: none;
+}
+
+.btn_1{
+  background-color: #ffe9f9;
+  color: #7963F0;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.1px;
+
+}
+
+.btn_2{
+  background-color: #f5f6f7;
+  color: #9a9ea7;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.1px;
+}
+
+.caros_section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.caros_section .findHeader{
+  width: 98%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+.findHeader h2{
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #0D0A19;
+
+
+}
+
+.findHeader img{
+  background: #F5F6F7;
+  padding: 0.8vw;
+  border-radius: 6px;
+}
+.findHeader span{
+  height: 1vw;
+  width: 1vw;
+  margin: 0 2px;
+  color: #9A9EA7;
+
+}
+.findHeader p{
+  margin-top: 15px;
+  color: #9A9EA7;
+}
+
+.caroselSection {
+  width: 100vw;
+  overflow-x: hidden; /* Ensure the carousel section does not overflow horizontally */
+}
+
+.product{
+  max-width: 24%;
+  margin: 0 20px 50px 0;
+  border-radius: 20px;
+  left: 0px;
+  position: relative;
+  transition: 0.5s;
+  margin-right: 50px;
+}
+.product .sedan{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #0D0A19;
+  }
+  
+  
+.find_nav h3{
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #0D0A19;
+
+}
+
+
+.find_button{
+
+}
+
+  .findCar button{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: #9A9EA7;
+  padding: 0px 25px;
+  width: 100%;
+  height: 40px;
+  margin-right: 30px;
+
+
+  }
+
+  .findCar .active{
+    border: 1px solid #EEEEEE;
+    color: #0D0A19;
+  }
+
+
+  .popularP{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #9A9EA7;
+    margin-bottom: 80px;
+    margin-top: -30px;
+
+
+  }
+  .findItem{
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 45px;
+  }
+
+  .findItem img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .findDesc{
+    margin-left: 35px;
+    
+
+  }
+
+
+  .findItem .findDesc .arrowI img{
+    width: 15px;
+    height: 15px;
+    margin-left: 100px;
+  }
+
+  .findDesc .sabaru{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #0D0A19;
+
+
+  }
+
+  .findDesc .num{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #9A9EA7;
+    margin-top: -17px;
+
+
+  }
+
+  .findDesc1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .sabaru {
+    margin-right: 10px;   /* Adjust the space between "sabaru" and "num" */
+  }
+  
+  
+  .num {
+    text-align: left; /* Left-align all elements with the class "num" */
+  }
+  
+  
+  
+
+.findDesc1 .sabaru{
+  margin-top: -55px;
+}
+
+.findDesc1 .num{
+  margin-top: 5px;
+  margin-top: -55px;
+  align-self: center;
+
+}
+
+.popularP1{
+  
+}
+
+
+
+.sec_col .sabaru{
+  font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #9A9EA7;
+}
+
+.sec_col{
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+.third_col{
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+.forth_col{
+  margin-left: 20px;
+}
+
+
+ .footer_section .footerItem h3{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #0D0A19;
+
+
+ }
+
+
+ .footer_section .footerItem p{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #9A9EA7;
+
+
+
+ }
+
+
+ .footer_row{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background: #F5F6F7;
+  padding: 50px 100px;
+ }
+
+
+ .copy_footer{
+  padding-top: 30px;
+ }
+
+
+ .copy_footer .left_content h3{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #0D0A19;
+
+
+ }
+
+ .copy_footer .left_content p{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #9A9EA7;
+
+
+ }
+
+ .copy_footer .right_content p{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #9A9EA7;
+
+ }
+
+ .left_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+ }
+
+ .right_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  gap: 20px;
+ }
+
+
+ .right_content .rc_1, .rc_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .right_content .rc_1 img{
+  width: 15px;
+  height: 15px;
+ }
+ .right_content .rc_2 img{
+  width: 15px;
+  height: 5px;
+ }
+
+ .right_content .rc_1 p{
+  margin-top: 15px;
+  margin-left: 10px;
+ }
+
+ .right_content .rc_2 p{
+  margin-top: 15px;
+  margin-left: 10px;
+ }
+.left_content p{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (max-width: 767px){
+
+    .select_menu select{
+      width: 90%;
+  
+    }
+    .select_menu{
+      background-color: white;
+      bottom: -300px;
+      width: 90%;
+    }
+    .hero_section h1{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .hero_section .p-content{
+      font-size: 14px;
+    }
+    .select_btn{
+      display: inline-block;
+      width: 80%;
+      transform: translateX(13%);
+      text-align: center;
+    }
+    .col-md-2{
+      padding-right: 0px;
+  
+    }
+    .com_section .container{
+      margin-top: 320px;
+    }
+    .com_section img{
+      margin-top: 30px;
+    }
+    .product{
+      min-width: 49%;
+      margin-inline-start: 5px;
+    }
+    .caros_section .findHeader img{
+      padding: 1.8vw;
+    }
+    .caros_section .findHeader h2{
+      font-size: 23px;
+      margin-left: 0px;
+    }
+
+    .findCar button{
+      margin-right: 0px;
+      padding: 0px 16px;
+      width: 110px;
+      font-size: 13px;
+    }
+    .find_nav h3{
+      font-size: 20px;
+      margin-left: 14px;
+    }
+
+    .findCar .last_btn{
+      display: none;
+    }
+
+    .find_nav{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .popularP{
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .first_col{
+      width: 50%;
+    }
+    .sec_col{
+      width: 50%;
+      margin-top: 35px;
+    }
+
+    .third_col{
+      width: 40%;
+      margin-left: 10px;
+    }
+    .forth_col{
+      width: 50%;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+
+    .left_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer_row1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right_content{
+      gap: 150px;
+    }
+  }
+  
